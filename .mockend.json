@@ -1,18 +1,21 @@
 {
-    "Products": [
-        {
-            "title": "Blender",
-            "description": "Blender's description.",
-            "stock": 30,
-            "unit": "unit(s)",
-            "imgURL": "https://res.cloudinary.com/dxjc7e5te/image/upload/v1627839739/core-inventory/default/Blender_frsmoe.jpg"
-        },
-        {
-            "title": "Cap",
-            "description": "Cap's description.",
-            "stock": 18,
-            "unit": "unit(s)",
-            "imgURL": "https://res.cloudinary.com/dxjc7e5te/image/upload/v1627839739/core-inventory/default/Cap_ypjsub.jpg"
-        }
-    ]
+    "ProductModel": {
+        "products":
+        [
+            {
+                "title": "Blender",
+                "description": "Blender's description.",
+                "stock": 30,
+                "unit": "unit(s)",
+                "imgURL": "https://res.cloudinary.com/dxjc7e5te/image/upload/v1627839739/core-inventory/default/Blender_frsmoe.jpg"
+            },                
+            {
+                "title": "Cap",
+                "description": "Cap's description.",
+                "stock": 18,
+                "unit": "unit(s)",
+                "imgURL": "https://res.cloudinary.com/dxjc7e5te/image/upload/v1627839739/core-inventory/default/Cap_ypjsub.jpg"
+            }
+        ]
+    }
 }
