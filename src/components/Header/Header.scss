@@ -1,0 +1,11 @@
+header {
+    background-color: #13dd62;
+    display: grid;
+    place-items: center;
+    height: calculateRem(200px);
+    position: relative;
+
+    h1 {
+        font-size: calculateRem(35px);
+    }
+}

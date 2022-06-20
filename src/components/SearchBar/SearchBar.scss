@@ -1,0 +1,7 @@
+input[type=text] {
+    border: 0;        
+    bottom: 0;
+    padding: calculateRem(12px) calculateRem(20px);
+    position: absolute;
+    width: calculateRem(400px);
+}
