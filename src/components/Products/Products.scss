@@ -1,4 +1,36 @@
 .products {
     display: grid;
-    place-content: center;
+    margin: calculateRem(100px) 0;
+    place-items: center;    
+
+    .container {
+        column-gap: calculateRem(80px);
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-self: center;        
+        place-items: center;
+        width: 70%;
+    
+        .product {
+            align-items: center;
+            border-radius: calculateRem(15px);
+            border: 1px solid rgb(43, 141, 95);
+            display: flex;
+            flex-direction: column;
+            padding: calculateRem(10px);
+            row-gap: calculateRem(10px);
+            width: calculateRem(175px);
+    
+            img {                        
+                height: calculateRem(150px);
+                object-fit: contain;       
+                width: 100%;
+            }
+        }
+    }
+
+    .not-found {        
+        font-size: 25px;
+        font-weight: 700;
+    }
 }
